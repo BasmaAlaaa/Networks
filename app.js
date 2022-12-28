@@ -144,7 +144,7 @@ app.get("/", function (req, res) {
 });
 
 app.post("/home", async function (req, res) {
-  console.log("basma")
+  console.log("basmaa")
   var userLogin = await db.collection("users").findOne({
     username: req.body.username,
     password: req.body.password,
